@@ -1,0 +1,70 @@
+/************** GENERAL *************/
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+
+  font-size: 62.5%;
+  font-family: sans-serif;
+
+  color: #fff;
+  background-color: rgb(103, 201, 103);
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+li {
+  list-style: none;
+}
+
+/************** HEADER *************/
+.header-container {
+  display: flex;
+  padding: 1rem 1.5rem;
+}
+
+.galaxy-logo {
+  font-size: 2rem;
+}
+
+nav {
+  margin-left: auto;
+  font-size: 1.2rem;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-link:visited,
+.nav-link:link {
+  transition: 0.3s ease-in-out;
+}
+.nav-link:hover,
+.nav-link:active {
+  opacity: 0.6;
+}
+
+/************** MAIN *************/
+
+main {
+  height: calc(100vh - 70px);
+
+  display: grid;
+  place-items: center;
+}
+
+h1.welcome-heading {
+  font-size: 5rem;
+}
